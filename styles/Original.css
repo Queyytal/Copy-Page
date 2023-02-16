@@ -1,0 +1,95 @@
+/* ===== SASS Import ===== */ /* ===== Body ===== */
+/* ===== Headerbar ===== */
+/* ===== Info ===== */
+header .headerbar {
+  position: sticky;
+  top: 0;
+  padding: 25px;
+  background: #ffffff;
+}
+header .headerbar .menu {
+  position: relative;
+  left: 10%;
+  display: flex;
+}
+header .headerbar .menu img {
+  width: 180px;
+}
+
+.social {
+  position: absolute;
+  top: 30%;
+  left: 61%;
+  width: -moz-max-content;
+  width: max-content;
+  color: #d4d4d4;
+}
+
+.icons {
+  position: absolute;
+  top: 40%;
+  left: 82%;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  gap: 5px;
+}
+
+/* ===== Headerbar Hover ===== */
+/* ===== Body ===== */
+/* ===== Headerbar ===== */
+/* ===== Info ===== */
+/* ===== Contact ===== */
+.video-bg {
+  position: relative;
+  left: 11%;
+  margin-top: 90px;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+/* ===== Contact ===== */
+.contact {
+  position: absolute;
+  top: 22%;
+  right: 10%;
+  padding: 25px;
+  width: 500px;
+  background: #ffffff;
+}
+
+.contact p {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #b8b6b6;
+}
+
+.contact input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline-color: gray;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  color: gray;
+  background: #d4d4d4;
+}
+
+.contact button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: large;
+  color: white;
+  background: #358b32;
+}
+
+/* ===== Root ===== */
+/* ===== Body ===== */
+/* ===== Headerbar ===== */
+/* ===== Info ===== */
+body {
+  background: #d4d4d4;
+}/*# sourceMappingURL=Original.css.map */

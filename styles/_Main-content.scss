@@ -1,0 +1,59 @@
+
+
+/* ===== Body ===== */
+$Body-color: #d4d4d4;
+
+/* ===== Headerbar ===== */
+$Headerbar-bg-color: #ffffff;
+$Headerbar-text-color: #d4d4d4;
+
+/* ===== Info ===== */
+$Info-colo: #b8b6b6;
+
+/* ===== Contact ===== */
+$Input-bg-color: #d4d4d4;
+$Button-bg-color: #358b32;
+
+.video-bg{
+    position: relative;
+    left: 11%;
+    margin-top: 90px;
+    width: max-content;
+}
+
+/* ===== Contact ===== */
+.contact{
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    padding: 25px;
+    width: 500px;
+    background: #ffffff;
+}
+
+.contact p{
+    width:fit-content;
+    color: $Info-colo;
+}
+
+.contact input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline-color: gray;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    color: gray;
+    background: $Input-bg-color;
+}
+
+.contact button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: large;
+    color: white;
+    background: $Button-bg-color;
+}

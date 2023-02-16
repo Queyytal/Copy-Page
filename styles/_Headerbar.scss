@@ -1,0 +1,44 @@
+
+/* ===== Body ===== */
+$Body-color: #d4d4d4;
+
+/* ===== Headerbar ===== */
+$Headerbar-bg-color: #ffffff;
+$Headerbar-text-color: #d4d4d4;
+
+/* ===== Info ===== */
+$Info-colo: #d4d4d4;
+
+header .headerbar{
+    position: sticky;
+    top: 0;
+    padding: 25px;
+    background: $Headerbar-bg-color;
+    .menu{
+        position: relative;
+        left: 10%;
+        display: flex;
+        img{
+            width: 180px;
+        }
+    }
+}
+
+.social{
+    position: absolute;
+    top: 30%;
+    left: 61%;
+    width: max-content;
+    color: $Headerbar-text-color;
+}
+
+.icons{
+    position: absolute;
+    top: 40%;
+    left: 82%;
+    width: max-content;
+    display: flex;
+    gap: 5px;
+}
+
+/* ===== Headerbar Hover ===== */

@@ -1,0 +1,21 @@
+
+/* ===== SASS Import ===== */
+@import "./Headerbar";
+@import "./Main-content";
+
+                                                /* ===== Root ===== */
+                                                
+/* ===== Body ===== */
+$Body-color: #d4d4d4;
+
+/* ===== Headerbar ===== */
+$Headerbar-bg-color: #ffffff;
+$Headerbar-text-color: #d4d4d4;
+
+/* ===== Info ===== */
+$Info-colo: #d4d4d4;
+
+body{
+    background: $Body-color;
+}
+
