@@ -1,5 +1,4 @@
 
-
 /* ===== Body ===== */
 $Body-color: #d4d4d4;
 
@@ -14,9 +13,12 @@ $Info-colo: #b8b6b6;
 $Input-bg-color: #d4d4d4;
 $Button-bg-color: #358b32;
 
+main{
+    padding: 50px;
+}
 .video-bg{
     position: relative;
-    left: 11%;
+    left: 9%;
     margin-top: 90px;
     width: max-content;
 }
@@ -25,10 +27,14 @@ $Button-bg-color: #358b32;
 .contact{
     position: absolute;
     top: 22%;
-    right: 10%;
+    right: 8%;
     padding: 25px;
     width: 500px;
     background: #ffffff;
+    h3{
+        position: sticky;
+        right: 50%;
+    }
 }
 
 .contact p{
@@ -37,6 +43,8 @@ $Button-bg-color: #358b32;
 }
 
 .contact input{
+    position: relative;
+    right: 2%;
     border: 1px solid gray;
     border-radius: 5px;
     outline-color: gray;
@@ -48,6 +56,8 @@ $Button-bg-color: #358b32;
 }
 
 .contact button{
+    position: relative;
+    right: 1%;
     border: 1px solid gray;
     border-radius: 5px;
     margin: 5px;

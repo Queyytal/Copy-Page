@@ -7,7 +7,11 @@ $Headerbar-bg-color: #ffffff;
 $Headerbar-text-color: #d4d4d4;
 
 /* ===== Info ===== */
-$Info-colo: #d4d4d4;
+$Info-colo: #b8b6b6;
+
+/* ===== Contact ===== */
+$Input-bg-color: #d4d4d4;
+$Button-bg-color: #358b32;
 
 header .headerbar{
     position: sticky;
@@ -40,5 +44,3 @@ header .headerbar{
     display: flex;
     gap: 5px;
 }
-
-/* ===== Headerbar Hover ===== */

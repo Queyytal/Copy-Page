@@ -1,6 +1,7 @@
 /* ===== SASS Import ===== */ /* ===== Body ===== */
 /* ===== Headerbar ===== */
 /* ===== Info ===== */
+/* ===== Contact ===== */
 header .headerbar {
   position: sticky;
   top: 0;
@@ -35,14 +36,17 @@ header .headerbar .menu img {
   gap: 5px;
 }
 
-/* ===== Headerbar Hover ===== */
 /* ===== Body ===== */
 /* ===== Headerbar ===== */
 /* ===== Info ===== */
 /* ===== Contact ===== */
+main {
+  padding: 50px;
+}
+
 .video-bg {
   position: relative;
-  left: 11%;
+  left: 9%;
   margin-top: 90px;
   width: -moz-max-content;
   width: max-content;
@@ -52,10 +56,14 @@ header .headerbar .menu img {
 .contact {
   position: absolute;
   top: 22%;
-  right: 10%;
+  right: 8%;
   padding: 25px;
   width: 500px;
   background: #ffffff;
+}
+.contact h3 {
+  position: sticky;
+  right: 50%;
 }
 
 .contact p {
@@ -65,6 +73,8 @@ header .headerbar .menu img {
 }
 
 .contact input {
+  position: relative;
+  right: 2%;
   border: 1px solid gray;
   border-radius: 5px;
   outline-color: gray;
@@ -76,6 +86,8 @@ header .headerbar .menu img {
 }
 
 .contact button {
+  position: relative;
+  right: 1%;
   border: 1px solid gray;
   border-radius: 5px;
   margin: 5px;
@@ -84,6 +96,42 @@ header .headerbar .menu img {
   font-size: large;
   color: white;
   background: #358b32;
+}
+
+/* ===== Body ===== */
+/* ===== Headerbar ===== */
+/* ===== Footerbar ===== */
+/* ===== Info ===== */
+/* ===== Contact ===== */
+footer .footerbar {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  margin-top: 125px;
+  width: 100%;
+  height: 130px;
+  background: #ffffff;
+}
+footer .footerbar .menu {
+  display: flex;
+  position: relative;
+  left: 15%;
+  height: -moz-max-content;
+  height: max-content;
+}
+footer .footerbar .menu h3 {
+  font-size: x-large;
+  margin-top: 75px;
+  position: relative;
+  left: 2%;
+}
+
+.thx {
+  font-size: x-large;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
 }
 
 /* ===== Root ===== */

@@ -1,0 +1,47 @@
+
+/* ===== Body ===== */
+$Body-color: #d4d4d4;
+
+/* ===== Headerbar ===== */
+$Headerbar-bg-color: #ffffff;
+$Headerbar-text-color: #d4d4d4;
+
+/* ===== Footerbar ===== */
+$Footerbar-bg-color: #ffffff;
+
+/* ===== Info ===== */
+$Info-colo: #b8b6b6;
+
+/* ===== Contact ===== */
+$Input-bg-color: #d4d4d4;
+$Button-bg-color: #358b32;
+
+footer .footerbar{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    margin-top: 125px;
+    width: 100%;
+    height: 130px;
+    background: $Footerbar-bg-color;
+    .menu{
+        display: flex;
+        position: relative;
+        left: 15%;
+        height: max-content;
+        h3{
+            font-size: x-large;
+            margin-top: 75px;
+            position: relative;
+            left: 2%;
+        }
+    }
+}
+
+.thx{
+    font-size: x-large;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+}
